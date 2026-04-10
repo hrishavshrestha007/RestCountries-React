@@ -5,6 +5,7 @@ function CountriesPage() {
   const countries = getAllCountries()
 
   return (
+    
     <main>
       <CountryRegion countries={countries} />
     </main>

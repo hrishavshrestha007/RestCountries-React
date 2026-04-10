@@ -5,7 +5,9 @@ function HomePage() {
     <div className="home">
       <h1>Welcome to Rest Countries</h1>
       <p>Explore countries from around the world.</p>
-      <Link to="/countries">View All Countries</Link>
+      <Link to="/countries" className="primary-btn">
+        View All Countries
+      </Link>
     </div>
   )
 }

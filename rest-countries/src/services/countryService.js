@@ -12,7 +12,7 @@ function getAllCountries() {
 }
 
 function getCountryById(id) {
-    const country = countries.find(c => c.id === id);
+    const country = countries.find(c => c.id === Number(id)); // Ensure id is a number for comparison
     return country;
 }
 
